@@ -17,7 +17,6 @@ dimensionalidade, regras de associação e detecção de outliers).
 
 - `train.csv` — 1460 imóveis com 79 variáveis explicativas + `SalePrice` (preço de venda)
 - `test.csv` — 1459 imóveis sem `SalePrice`, usado apenas para gerar features de forma consistente
-- `data_description.txt` — dicionário de dados com a descrição de cada variável
 
 ## Estrutura do repositório
 
@@ -26,7 +25,6 @@ dimensionalidade, regras de associação e detecção de outliers).
 ├── House_Prices.ipynb      # notebook principal com toda a análise
 ├── train.csv
 ├── test.csv
-├── data_description.txt
 └── README.md
 ```
 
