@@ -22,9 +22,11 @@ dimensionalidade, regras de associação e detecção de outliers).
 
 ```
 .
-├── House_Prices.ipynb      # notebook principal com toda a análise
-├── train.csv
-├── test.csv
+├── HousePrices_Trabalho/
+│   ├── House_Prices.ipynb  # notebook principal com toda a análise
+│   ├── train.csv
+│   └── test.csv
+├── requirements.txt
 └── README.md
 ```
 
@@ -77,7 +79,8 @@ interessante entre abordagens supervisionadas e não supervisionadas.
 ## Como executar
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn scipy
+python -m pip install -r requirements.txt
+cd HousePrices_Trabalho
 jupyter notebook House_Prices.ipynb
 ```
 
@@ -87,4 +90,4 @@ Python · pandas · NumPy · scikit-learn · matplotlib · seaborn · SciPy
 
 ## Autores
 
-- *(adicione aqui o nome dos membros do grupo)*
+- Gabriela Gave Gavi, Jeronymo Francisco Moreira Neto, José Luiz dos Santos Azeredo Mendes, Pedro Henrique Bispo Sarmento, Pedro Henrique Ferreira Bonela 
